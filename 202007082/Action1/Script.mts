@@ -59,7 +59,6 @@ AIUtil.FindTextBlock("First Name").Click													'Click on the First Name te
 AIUtil("text_box", "First Name").Type FirstName												'Enter the unique first name into the field
 AIUtil("text_box", "Last Name").Highlight													'Highlight the Last Name field, this gets the AI engine to rescan the page as well
 AIUtil("text_box", "Last Name").Type LastName												'Enter the unique last name into the field
-AIUtil.FindTextBlock("Zip or Postal Code").Click											'Click on the Zip or Postal Code text to have the application move the text above the text box, to ensure the AI engine will select the right field
 AIUtil("text_box", "Zip or Postal Code").Type "90210"										'Enter the zip code
 
 AppContext.Close																			'Close the application
